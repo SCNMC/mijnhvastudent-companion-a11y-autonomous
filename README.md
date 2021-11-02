@@ -104,7 +104,7 @@ Bij het testen van de website bezoeken met alleen het gebruik van een toetsenbor
 
 Tijdens het testen van de afbeeldingen op de website kwamen wij er achter dat onze afbeeldingen geen alt tag hadden, deze hebben wij vervolgens toegevoegd. Hierna hebben wij met een screenreader getest of onze alt-tags goed waren en dit was in onze optiek het geval. Voor de rest waren onze afbeeldingen goed volgens de checklist.
 
-#### Images oplossingen
+##### Images oplossingen
 
 > Alt tags gebruiken op de afbeeldingen. Zodat deze ook worden voorgelezen door screenreaders.
 
