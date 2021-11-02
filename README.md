@@ -114,11 +114,13 @@ Bij het testen van de website hebben wij uiteraard ook gekeken naar de headings 
 
 #### Headings oplossingen
 
-> Gebruik een logische volgorde in de heading levels: h1, h2, h3, enzovoort.
+> Gebruik een logische volgorde in de heading levels: `<h1, h2, h3>`, enzovoort.
 
 ##### Lists
 
 ##### Controls
+
+
 
 ##### Tables
 
