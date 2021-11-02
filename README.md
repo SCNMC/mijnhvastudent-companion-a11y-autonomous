@@ -86,6 +86,15 @@ Wij hebben bij de welkomspagina geprobeerd om een zo goed mogelijk kleurencontra
 
 Wij hebben bij de welkomspagina twee keer een lighthouse toegankelijkheids test gedaan. Zie onderstaande foto's. Hier kwam de eerste keer een score van 76 uit. Wij hebben aan de hand van de commentaren van lighthouse de website aangepast, een voorbeeld hiervan was het toevoegen van `alt` tags op onze afbeeldingen. Vervolgens hadden wij een score van 100.
 
+##### Eerste lighthouse check
+
+<img width="1440" alt="Schermafbeelding 2021-10-27 om 12 18 08" src="https://user-images.githubusercontent.com/45170095/139865212-2e2e945b-626e-4a04-bf68-96f0182674be.png">
+
+
+##### Tweede lighthouse check
+
+<img width="1440" alt="Schermafbeelding 2021-10-27 om 15 14 34" src="https://user-images.githubusercontent.com/45170095/139865217-840db226-ec91-4542-8a84-f377c615b59c.png">
+
 
 
 De welkomspagina van MijnHvA Companion heeft een aantal sterke punten, deze zijn als volgt: De welkomspagina is goed leesbaar voor screenreaders, heeft een goed kleurencontrast, goede typografie en een goede HTML structuur.
