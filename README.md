@@ -163,7 +163,11 @@ Bij het testen van het kleurencontrast, was het contrast van de kleuren die wij 
 
 ##### Mobile and touch
 
-{Schrijf per check wat er uit de test is gekomen}
+Bij het testen op een mobiel apparaat, was het even spannend om te kijken of de website het ook goed deed op een andere scherm oriëntatie, maar dit ging eigenlijk super goed. Voor de rest was onze website goed op mobiel volgens de checklist. Alleen werd door de checklist wel aangegeven dat op mobiel horizontaal scrollen niet gewenst is. 
+
+##### Mobile and touch oplossingen
+
+> E.v.t horizontaal scrollen weghalen van de instructies `section`. Dit kan door de `display: grid` weg te halen en de width van de `article` breder te maken.
 
 {Neem links op naar de WCAG 2.1 succescriteria en technieken voor de ontoegankelijke punten}
 
