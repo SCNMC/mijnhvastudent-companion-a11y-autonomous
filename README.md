@@ -16,7 +16,7 @@ Webtoegankelijkheid-test uitgevoerd door: Shauri, Jean en Boudewijn
 - [Bijlagen](#bijlagen)
 - [Licentie](#licentie)
 
-## ✅ Samenvatting
+## Samenvatting
 
 Dit rapport beschrijft in hoeverre de website {naam van de website} overeenstemt met de _Web Content Accessibility Guidelines (WCAG)_ van het W3C. Na de achtergrondinformatie en afbakening van de test worden beoordelaars, beoordelingsproces en testresulltaten beschreven.
 
