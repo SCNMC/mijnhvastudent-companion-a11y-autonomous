@@ -1,8 +1,4 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
-# Rapportage webtoegankelijkheid-test voor {naam van de website}
-
-_Dit document is een template voor een webtoegankelijkheid-test volgens de Web Content Accessibility Guidelines (WCAG). Een consistente rapportage helpt bij het uitvoeren van een evaluatie en zorgt er voor dat verschilelnde tests kunnen worden vergeleken._
+# Rapportage webtoegankelijkheid-test voor MijnHvA Companion
 
 Datum webtoegankelijkheid-test: {datum}
 
@@ -146,7 +142,7 @@ Zoals bij video was dit voor ons niet nodig, omdat de video die wij hebben gebru
 
 ##### Appearance
 
-Volgens de checklist was onze appereance van de website ook goed, alleen hadden wij een probleem bij het uitvoeren van de `straw` test. Hier kwamen wij er namelijk achter dat de tekst van de veelgestelde vragen te lang was voor mensen die zoom software gebruiken.
+Volgens de checklist was de appereance van de website ook goed, alleen hadden wij een probleem bij het uitvoeren van de `straw` test. Hier kwamen wij er namelijk achter dat de tekst van de veelgestelde vragen te lang was voor mensen die zoom software gebruiken.
 
 ##### Appearance oplossingen
 
