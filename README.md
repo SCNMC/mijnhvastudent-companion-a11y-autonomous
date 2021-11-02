@@ -84,8 +84,6 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 ### Checklist
 
-{Beschijf de resultaten van de hele test op basis van de A11Y Project-Checklist}
-
 ##### Content
 
 ##### Global code
@@ -94,7 +92,7 @@ Tijdens het valideren van de HTML kwamen wij als groepje op een aantal HTML fout
 
 ##### Keyboard
 
-Bij het testen van de website bezoeken met alleen het gebruik van een toetsenbord ging het voor het grootste gedeelte perfect, het is namelijk voor het grootste gedeelte mogelijk om met de tab toets over de pagina te navigeren. Helaas is dit niet overal het geval, het is namelijk zo dat het mobiele menu wordt meegenomen in de tab lijst, terwijl deze standaard niet wordt getoond. Tot slot hebben wij geen focus state kunnen zetten op interactieve elementen.
+Bij het testen van de website bezoeken met alleen het gebruik van een toetsenbord ging het voor het grootste gedeelte perfect, het is namelijk voor het grootste gedeelte mogelijk om met de tab toets over de pagina te navigeren. Helaas is dit niet overal het geval, het is namelijk zo dat het mobiele menu wordt meegenomen tijdens het gebruik van de tab toets op de pagina, terwijl deze standaard niet wordt getoond. Tot slot hebben wij geen focus state kunnen zetten op interactieve elementen.
 
 ##### Keyboard oplossingen
 
@@ -104,7 +102,19 @@ Bij het testen van de website bezoeken met alleen het gebruik van een toetsenbor
 
 ##### Images
 
+Tijdens het testen van de afbeeldingen op de website kwamen wij er achter dat onze afbeeldingen geen alt tag hadden, deze hebben wij vervolgens toegevoegd. Hierna hebben wij met een screenreader getest of onze alt-tags goed waren en dit was in onze optiek het geval. Voor de rest waren onze afbeeldingen goed volgens de checklist.
+
+#### Images oplossingen
+
+> Alt tags gebruiken op de afbeeldingen. Zodat deze ook worden voorgelezen door screenreaders.
+
 ##### Headings
+
+Bij het testen van de website hebben wij uiteraard ook gekeken naar de headings op de website. Onze gebruikte headings voldeden aan bijna alle punten van de checklist. Wij hadden namelijk perongeluk heading niveaus overgeslagen en hier ook geen logische volgorde in de heading niveaus gebruiken, wij gingen bijvoorbeeld van een h2 naar een h4 zonder een h3 te gebruiken.
+
+#### Headings oplossingen
+
+> Gebruik een logische volgorde in de heading levels: h1, h2, h3, enzovoort.
 
 ##### Lists
 
