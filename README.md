@@ -66,13 +66,15 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 {Beschrijf hoe handmatige beoordeling is uitgevoerd, bv. usability test of toegankelijkheidstest aan de hand van A11Y Project-checklist}
 
-## Testresultaten en aanbevelingen
+## ⚡ Testresultaten en aanbevelingen
 
 {Samenvatting van testresultaten, bv. deze website {voldoet/ voldoet niet/ is dichtbij aan voldoen} aan de WCAG 2.1, op niveau A, AA of AAA.}
 
 ### Sterke punten
 
 De welkomspagina van MijnHvA Companion heeft een aantal sterke punten, deze zijn als volgt: De welkomspagina is goed leesbaar voor screenreaders, heeft een goed kleurencontrast, goede typografie en een goede HTML structuur.
+
+
 
 ### Ontoegankelijke punten
 
