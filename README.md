@@ -175,7 +175,7 @@ Bij het testen van het kleurencontrast, was het contrast van de kleuren die wij 
 
 ### Resultaten Usability test
 
-{Beschrijf per pagina de bevindingen uit jouw usability test in het lab.}
+Tot onze grote spijt was het bezoek aan het usability lab voor ons geen toegevoegde waarde. Dit komt doordat het usability lab draait op verouderde browsers. Onze website is met bepaalde 'nieuwe' css properties gemaakt, zoals `grid`, hierdoor was het niet mogelijk om onze website in het usability lab te testen, omdat onze website door de gebruikte browser dan volledig uitelkaar werd getrokken.
 
 ## Referenties
 
