@@ -72,7 +72,7 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 ### 💪 Sterke punten
 
-#### Screenreaders
+#### 👓 Screenreaders
 
 Wij hebben de welkomspagina uitvoerig getest met screenreaders. Dit hebben wij gedaan door het apple voiceover programma te gebruiken. Dit programma hebben wij tijdens het testen aangezet en vervolgens onze ogen dicht gedaan. Het was ontzettend raar om zo over een pagina heen te gaan, maar het voiceover programma deed het verassend goed op onze website, hij haperde nergens en liep nergens vast.
 
