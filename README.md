@@ -98,9 +98,9 @@ Bij het testen van de website bezoeken met alleen het gebruik van een toetsenbor
 
 ## Oplossingen
 
-> Het tab probleem is op te lossen door het mobiele menu op display: none te zetten, maar dan is er een ander losstaand probleem m.b.t de animatie van het mobiele menu. 
+>> Het tab probleem is op te lossen door het mobiele menu op display: none te zetten, maar dan is er een ander losstaand probleem m.b.t de animatie van het mobiele menu. 
 
-> De focus state is op te lossen door op de desbetreffende elementen de :focus methode in CSS te gebruiken.
+> De focus state is op te lossen door op de desbetreffende elementen de `<:focus>` methode in CSS te gebruiken.
 
 ##### Images
 
