@@ -1,8 +1,8 @@
 # Rapportage webtoegankelijkheid-test voor MijnHvA Companion
 
-Datum webtoegankelijkheid-test: {datum}
+Datum webtoegankelijkheid-test: 25/10/2021
 
-Webtoegankelijkheid-test uitgevoerd door: {naamt}
+Webtoegankelijkheid-test uitgevoerd door: Shauri, Jean en Boudewijn
 
 ## 📚 Inhoudsopgave
 
