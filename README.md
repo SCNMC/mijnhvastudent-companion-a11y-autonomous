@@ -146,7 +146,11 @@ Zoals bij video was dit voor ons niet nodig, omdat de video die wij hebben gebru
 
 ##### Appearance
 
+Volgens de checklist was onze appereance van de website ook goed, alleen hadden wij een probleem bij het uitvoeren van de `straw` test. Hier kwamen wij er namelijk achter dat de tekst van de veelgestelde vragen te lang was voor mensen die zoom software gebruiken.
 
+##### Appearance oplossingen
+
+> Veelgestelde vragen korter maken d.m.v `word-wrap` in css. Hierdoor kunnen mensen met zoom software de tekst ook goed kunnen lezen en de vragen op een goede manier kunnen bekijken.
 
 ##### Animation
 
