@@ -134,11 +134,19 @@ Bij het testen van de controls vanaf de checklist ging eigenlijk ook alles goed 
 
 ##### Media
 
+Bij het testen van de media op de website ging alles eigenlijk zoals gehoopt, alles werkte naar behoren en de media die wij hadden geplaatst kwam goed overeen met de punten  die op de checklist werden genoemd als referentiepunt.
+
 ##### Video
+
+Bij het testen van video was het een iets ander verhaal, volgens de checklist is het namelijk gewenst om ondertiteling toe te voegen, maar dit was in ons geval niet nodig, omdat de video die wij gebruikt hebben voor het overgrote gedeelte al bestaat uit tekst op beeld.
 
 ##### Audio
 
+Zoals bij video was dit voor ons niet nodig, omdat de video die wij hebben gebruikt al voor het overgrote gedeelte bestaat uit tekst op beeld.
+
 ##### Appearance
+
+
 
 ##### Animation
 
