@@ -150,7 +150,16 @@ Volgens de checklist was de appereance van de website ook goed, alleen hadden wi
 
 ##### Animation
 
+Onze website maakt niet echt gebruik van animaties, los van wat simpele transitions, maar deze zijn afgestemd aan de hand van de checklist.
+
 ##### Color contrast
+
+Bij het testen van het kleurencontrast, was het contrast van de kleuren die wij op de website hebben gebruikt goed, alleen de tekst met een 'normale' grootte is één tint te grijs, deze moet iets meer een zwarte tint hebben, dan is het kleuren contrast van de website helemaal perfect op AAA niveau. 
+
+
+##### Color contrast oplossingen
+
+> De tekst met een 'normale' grootte, van kleur veranderen met de volgende css property: `color: #363636`. Hiermee wordt de color contrast score van AAA behaald. 
 
 ##### Mobile and touch
 
