@@ -98,7 +98,7 @@ Bij het testen van de website bezoeken met alleen het gebruik van een toetsenbor
 
 > Het tab probleem is op te lossen door het mobiele menu op display: none te zetten, maar dan is er een ander losstaand probleem m.b.t de animatie van het mobiele menu. 
 
-> De focus state is op te lossen door op de desbetreffende elementen de `<:focus>` methode in CSS te gebruiken.
+> De focus state is op te lossen door op de desbetreffende elementen de `:focus` methode in CSS te gebruiken.
 
 ##### Images
 
@@ -106,7 +106,7 @@ Tijdens het testen van de afbeeldingen op de website kwamen wij er achter dat on
 
 ##### Images oplossingen
 
-> Alt tags gebruiken op de afbeeldingen. Zodat deze ook worden voorgelezen door screenreaders.
+> `Alt` tags gebruiken op de afbeeldingen. Zodat deze ook worden voorgelezen door screenreaders.
 
 ##### Headings
 
@@ -114,7 +114,7 @@ Bij het testen van de website hebben wij uiteraard ook gekeken naar de headings 
 
 ##### Headings oplossingen
 
-> Gebruik een logische volgorde in de heading levels: `<h1, h2, h3>`, enzovoort.
+> Gebruik een logische volgorde in de heading levels: `h1, h2, h3`, enzovoort.
 
 ##### Lists
 
