@@ -96,9 +96,9 @@ Tijdens het valideren van de HTML kwamen wij als groepje op een aantal HTML fout
 
 Bij het testen van de website bezoeken met alleen het gebruik van een toetsenbord ging het voor het grootste gedeelte perfect, het is namelijk voor het grootste gedeelte mogelijk om met de tab toets over de pagina te navigeren. Helaas is dit niet overal het geval, het is namelijk zo dat het mobiele menu wordt meegenomen in de tab lijst, terwijl deze standaard niet wordt getoond. Tot slot hebben wij geen focus state kunnen zetten op interactieve elementen.
 
-## Oplossingen
+###### Oplossingen
 
->> Het tab probleem is op te lossen door het mobiele menu op display: none te zetten, maar dan is er een ander losstaand probleem m.b.t de animatie van het mobiele menu. 
+> Het tab probleem is op te lossen door het mobiele menu op display: none te zetten, maar dan is er een ander losstaand probleem m.b.t de animatie van het mobiele menu. 
 
 > De focus state is op te lossen door op de desbetreffende elementen de `<:focus>` methode in CSS te gebruiken.
 
