@@ -78,6 +78,8 @@ Wij hebben de welkomspagina uitvoerig getest met screenreaders. Dit hebben wij g
 
 #### Kleurencontrast
 
+Wij hebben bij de welkomspagina geprobeerd om een zo goed mogelijk kleurencontrast te creëren. Zo als in onderstaande foto te zien is is dit goed gelukt. Wij hebben met kleurconstrast de hoogst haalbare score behaald.
+
 <img width="482" alt="Schermafbeelding 2021-11-02 om 14 58 28" src="https://user-images.githubusercontent.com/45170095/139861706-5f5b00a5-3320-4675-9987-fef8c9ad621c.png">
 
 
