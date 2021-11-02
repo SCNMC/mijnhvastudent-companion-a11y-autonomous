@@ -4,7 +4,7 @@ Datum webtoegankelijkheid-test: {datum}
 
 Webtoegankelijkheid-test uitgevoerd door: {naamt}
 
-📚 ## Inhoudsopgave
+## 📚 Inhoudsopgave
 
 - [Samenvatting](#samenvatting)
 - [Achtergrond bij de evaluatie](#achtergrond-bij-de-evaluatie)
