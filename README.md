@@ -112,7 +112,7 @@ Tijdens het testen van de afbeeldingen op de website kwamen wij er achter dat on
 
 Bij het testen van de website hebben wij uiteraard ook gekeken naar de headings op de website. Onze gebruikte headings voldeden aan bijna alle punten van de checklist. Wij hadden namelijk perongeluk heading niveaus overgeslagen en hier ook geen logische volgorde in de heading niveaus gebruiken, wij gingen bijvoorbeeld van een h2 naar een h4 zonder een h3 te gebruiken.
 
-#### Headings oplossingen
+##### Headings oplossingen
 
 > Gebruik een logische volgorde in de heading levels: `<h1, h2, h3>`, enzovoort.
 
@@ -120,7 +120,13 @@ Bij het testen van de website hebben wij uiteraard ook gekeken naar de headings 
 
 ##### Controls
 
+Bij het testen van de controls vanaf de checklist ging eigenlijk ook alles goed in de test, alleen hadden de interactieve elementen geen :focus state. Daarnaast heeft de website ook geen skiplink om direct door te kunnen gaan naar belangrijke informatie op de website.
 
+##### Controls oplossingen
+
+> `:focus` state toevoegen op interactieve elementen.
+
+> Skiplink toevoegen, zodat er direct naar belangrijke informatie op de website kan worden gegaan met de tab toets.
 
 ##### Tables
 
