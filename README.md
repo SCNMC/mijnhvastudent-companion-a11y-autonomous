@@ -72,7 +72,7 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 ### 💪 Sterke punten
 
-<hr style="height: 1px">
+<hr size="1">
 
 #### 👓 Screenreaders
 
