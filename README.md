@@ -1,7 +1,8 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Rapportage webtoegankelijkheid-test voor {naam van de website}
-*Dit document is een template voor een webtoegankelijkheid-test volgens de Web Content Accessibility Guidelines (WCAG). Een consistente rapportage helpt bij het uitvoeren van een evaluatie en zorgt er voor dat verschilelnde tests kunnen worden vergeleken.*
+
+_Dit document is een template voor een webtoegankelijkheid-test volgens de Web Content Accessibility Guidelines (WCAG). Een consistente rapportage helpt bij het uitvoeren van een evaluatie en zorgt er voor dat verschilelnde tests kunnen worden vergeleken._
 
 Datum webtoegankelijkheid-test: {datum}
 
@@ -9,19 +10,19 @@ Webtoegankelijkheid-test uitgevoerd door: {naamt}
 
 ## Inhoudsopgave
 
-  * [Samenvatting](#samenvatting)
-  * [Achtergrond bij de evaluatie](#achtergrond-bij-de-evaluatie)
-  * [Afbakening](#afbakening)
-  * [Beoordelaars](#beoordelaars)
-  * [Beoordelingsproces](#beoordelingsproces)
-  * [Testresultaten en aanbevelingen](#testresultaten-en-aanbevelingen)
-  * [Referenties](#referenties)
-  * [Bijlagen](#bijlagen)
-  * [Licentie](#licentie)
+- [Samenvatting](#samenvatting)
+- [Achtergrond bij de evaluatie](#achtergrond-bij-de-evaluatie)
+- [Afbakening](#afbakening)
+- [Beoordelaars](#beoordelaars)
+- [Beoordelingsproces](#beoordelingsproces)
+- [Testresultaten en aanbevelingen](#testresultaten-en-aanbevelingen)
+- [Referenties](#referenties)
+- [Bijlagen](#bijlagen)
+- [Licentie](#licentie)
 
 ## Samenvatting
 
-Dit rapport beschrijft in hoeverre de website {naam van de website} overeenstemt met de *Web Content Accessibility Guidelines (WCAG)* van het W3C. Na de achtergrondinformatie en afbakening van de test worden beoordelaars, beoordelingsproces en testresulltaten beschreven. 
+Dit rapport beschrijft in hoeverre de website {naam van de website} overeenstemt met de _Web Content Accessibility Guidelines (WCAG)_ van het W3C. Na de achtergrondinformatie en afbakening van de test worden beoordelaars, beoordelingsproces en testresulltaten beschreven.
 
 Conslusie van deze test luidt dat de {Frontend Design & Development} website {niet voldoet/ voldoet/ dichtbij voldoen is aan} de WCAG 2.1, op niveau {A/ AA/ AAA}. Gedetailleerde resultaten en aanbevelingen zijn verderop in dit document beschikbaar en in de referenties vindt u bronnen voor eventuele vervolgstudie. Wij stellen feedback op deze evaluatie zeer op prijs.
 
@@ -81,7 +82,7 @@ De welkomspagina van MijnHvA Companion heeft een aantal sterke punten, deze zijn
 
 De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, deze zijn als volgt: Het is niet mogelijk om op een goede manier over de pagina heen te navigeren met het gebruik van tab. Daarnaast is de lengte van de tekst soms te lang waardoor mensen met een verminderd zicht de teskt niet goed kunnen lezen.
 
-### Checklist 
+### Checklist
 
 {Beschijf de resultaten van de hele test op basis van de A11Y Project-Checklist}
 
@@ -89,7 +90,11 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 ##### Global code
 
+Tijdens het valideren van de HTML kwamen wij als groepje op een aantal HTML fouten. Zo hadden wij bijvoorbeeld geen alt-tags gebruikt op onze afbeeldingen, een onjuiste structuur bij lijsten en hadden wij onze HTML niet ingesteld op Nederlands. Gelukkig waren dit vrij kleinschalige problemen hebben wij deze opgelost. 
+
 ##### Keyboard
+
+Bij het testen van de website bezoeken met alleen het gebruik van een toetsenbord ging het voor het grootste gedeelte perfect, het is namelijk voor het grootste gedeelte mogelijk om met de tab toets over de pagina te navigeren. Helaas is dit niet overal het geval, het is namelijk zo dat het mobiele menu wordt meegenomen in de tab lijst, terwijl deze standaard niet wordt getoond. Tot slot hebben wij geen focus state kunnen zetten op interactieve elementen.
 
 ##### Images
 
@@ -148,7 +153,6 @@ Referenties welke gebruikt zijn bij de webtoegankelijkheid-test. Deze referentie
 ## Bijlagen
 
 {Geef een opsomming van de bijlagen, zoals links naar rapportages, screenshots en uitleg in de Wiki}
-
 
 [Einde van het template]
 
