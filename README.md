@@ -19,7 +19,7 @@ Webtoegankelijkheid-test uitgevoerd door: Shauri, Jean en Boudewijn
 ## Samenvatting
 
 <details>
-<summary>## Samenvatting</summary>
+<summary>Details</summary>
 <br>
 
 Dit rapport beschrijft in hoeverre de website MijnHvA Compannion overeenstemt met de Web Content Accessibility Guidelines (WCAG) van het W3C. Na de achtergrondinformatie en afbakening van de test worden beoordelaars, beoordelingsproces en testresulltaten beschreven.
