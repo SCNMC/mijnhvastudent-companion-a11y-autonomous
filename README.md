@@ -50,15 +50,38 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 ## Beoordelaars
 
-{Naam van de beoordelaar of het beoordelingsteam}
+Beoordelaars 
 
-{Organisatie van de beoordelaars}
+  
 
-{Contactinformatie van de beoordelaar(s)}
+Beoordelingsteam:  
 
-{Expertisegebied van de beoordelaars op basis van naamgeving in de referentie: “Informatie over het gebruik van gecombineerde expertise voor het evalueren van webtoegankelijkheid”}
+ 
 
-{Niveau van natuurlijke taal/talen waarin de beoordelaar(s) communiceert/communiceren}
+Menno Manschot    accesibilty/ ICT Services  
+
+Obe van der Klei  project manager  
+
+Jordy Roelofs     front end developer  
+
+Organisatie van beoordelaars: 
+
+ Hogeschool van Amsterdam 
+
+Contact informatie van beoordelaars: 
+
+Obe van der Klei  o.j.van.der.klei@hva.nl 
+
+Menno Manschot  m.a.j.manschot@hva.nl 
+
+Jordy Roelofs     j.j.roelofs@hva.nl 
+Jordy Roelofs is een Front-end developer. Menno is een expert in het gebied vana accessibility over websites . Het was van belang dat wij onze website bouwen om zo accessible mogelijk te zijn voor screenreaders en ook om een AAA score te krijgen vor de A11y project. Op onze website is er een horizontale slider. Deze slider kon blijven aangezien het geen effect heeft op de horizontale scrollbar.
+
+ 
+
+De niveau die te beoordelaars communiceren is gebasseerd op  de a a11y project. 
+
+ 
 
 ## Beoordelingsproces
 
