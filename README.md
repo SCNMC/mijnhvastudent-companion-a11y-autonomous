@@ -62,11 +62,25 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 ## Beoordelingsproces
 
-{Benoem het WCAG 2.1 niveau waarvoor de beoordeling is uitgevoerd, bv. WCAG 2.1 Niveau A, AA of AAA}
+De WCAG 2.1  Niveau die wij aan moeten houden  is AAA 
 
-{Benoem de beoordelings- en evaluatietools en versies van de tools die gebruikt zijn}
+De Evaluatie tools die wij hebben gebruikt zijn: 
 
-{Beschrijf hoe handmatige beoordeling is uitgevoerd, bv. usability test of toegankelijkheidstest aan de hand van A11Y Project-checklist}
+Lighthouse 100.0.0.0 
+
+NVDA version 2021.2. 
+
+Color contrast 3.1.4  
+
+Html validator : Ready to check - Nu Html Checker (w3.org) 
+
+Wij hebben ook handmatige tools gebruikt zoals: 
+
+The straw  
+
+aria-describedby  
+
+ 
 
 ## ⚡ Testresultaten en aanbevelingen
 
