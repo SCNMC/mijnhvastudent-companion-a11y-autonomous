@@ -90,9 +90,9 @@ De Evaluatie tools die wij hebben gebruikt zijn:
 
 * NVDA `versie 2021.2`
 
-Color contrast 3.1.4  
+* Color contrast `versie 3.1.4`  
 
-Html validator : Ready to check - Nu Html Checker (w3.org) 
+* HTML Validator (w3) `versie 1.3`
 
 Wij hebben ook handmatige tools gebruikt zoals: 
 
