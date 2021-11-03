@@ -117,17 +117,17 @@ Onze website is dichtbij aan voldoen van het niveau `AAA` van de WCAG 2.1 classi
    <img width="482" alt="Schermafbeelding 2021-11-02 om 14 58 28" src="https://user-images.githubusercontent.com/45170095/139861706-5f5b00a5-3320-4675-9987-fef8c9ad621c.png">
    </details>
 
-#### 🏠 Lighthouse
+* #### 🏠 Lighthouse
 
-Wij hebben bij de welkomspagina twee keer een lighthouse toegankelijkheids test gedaan. Zie onderstaande foto's. Hier kwam de eerste keer een score van 76 uit. Wij hebben aan de hand van de commentaren van lighthouse de website aangepast, een voorbeeld hiervan was het toevoegen van `alt` tags op onze afbeeldingen. Vervolgens hadden wij een score van 100.
+   Wij hebben bij de welkomspagina twee keer een lighthouse toegankelijkheids test gedaan. Zie onderstaande foto's. Hier kwam de eerste keer een score van 76 uit. Wij hebben aan de hand van de commentaren van lighthouse de website aangepast, een voorbeeld hiervan was het toevoegen van `alt` tags op onze afbeeldingen. Vervolgens hadden wij een score van 100.
 
-##### Eerste lighthouse check
+* ##### Eerste lighthouse check
 
-<img width="1440" alt="Schermafbeelding 2021-10-27 om 12 18 08" src="https://user-images.githubusercontent.com/45170095/139865212-2e2e945b-626e-4a04-bf68-96f0182674be.png">
+   <img width="1440" alt="Schermafbeelding 2021-10-27 om 12 18 08" src="https://user-images.githubusercontent.com/45170095/139865212-2e2e945b-626e-4a04-bf68-96f0182674be.png">
 
-##### Tweede lighthouse check
+* ##### Tweede lighthouse check
 
-<img width="1440" alt="Schermafbeelding 2021-10-27 om 15 14 34" src="https://user-images.githubusercontent.com/45170095/139865217-840db226-ec91-4542-8a84-f377c615b59c.png">
+   <img width="1440" alt="Schermafbeelding 2021-10-27 om 15 14 34" src="https://user-images.githubusercontent.com/45170095/139865217-840db226-ec91-4542-8a84-f377c615b59c.png">
 
 ## 🚧 Ontoegankelijke punten
 
