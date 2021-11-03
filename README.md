@@ -149,7 +149,7 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 * Make sure that button, a, and label element content is unique and descriptive:
 
-Button, a of label elementen die we hebben gebruikt voor onzen pagina hebben allemaal een unieke beschrijving. Hierdoor leest de screen reader wat er gebeurt wanneer een specifiek element zoals een button of a word geselecteerd.
+> Button, a of label elementen die wij hebben gebruikt voor de MijnHvA Companion welkomspagina hebben allemaal een unieke beschrijving. Hierdoor kan een screenreader duidelijk aan de gebruiker voorlezen wat er gebeurd als er op een link en/of button wordt geklikt.
 
 * Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages:
 
