@@ -141,8 +141,10 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 ## 🙎 Checklist
 
-#### Content
+<!-- #### Content -->
 
+<details>
+<summary>Content</summary
 * Use plain language and avoid figures of speech, idioms, and complicated metaphors:
 
 > Onze welkomspagina gebruikt tekst op 8 grade reading level. Hierdoor is onze website begrijpelijk voor alle gebruikers en op deze manier word niemand uitgesloten die moeilijke begrippen of woorden niet begrijpt.
@@ -154,6 +156,7 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 * Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages:
 
 > Alle gebruikte tekst op de MijnHvA Companion welkomspagina wordt standaard al links uitgelijnd. Hierdoor zijn de teksten gemakkelijk te lezen.
+ </details>
 
 ##### Global code
 
