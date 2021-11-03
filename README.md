@@ -133,6 +133,10 @@ Onze website is dichtbij aan voldoen van het niveau `AAA` van de WCAG 2.1 classi
 
 De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, deze zijn als volgt: Het is niet mogelijk om op een goede manier over de pagina heen te navigeren met het gebruik van tab. Daarnaast is de lengte van de tekst soms te lang waardoor mensen met een verminderd zicht de teskt niet goed kunnen lezen.
 
+De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijkep unten, deze zijn als volgt: 
+
+* Het is niet goed mogelijk om over de pagina heen te navigeren d.m.v de `tab` toets.
+
 ## 🙎 Checklist
 
 ##### Content
