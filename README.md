@@ -145,7 +145,7 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 * Use plain language and avoid figures of speech, idioms, and complicated metaphors:
 
-`Onze welkomspagina gebruikt tekst op 8 grade reading level. Hierdoor is onze website begrijpelijk voor alle gebruikers en op deze manier word niemand uitgesloten die moeilijke begrippen of woorden niet begrijpt.`
+> Onze welkomspagina gebruikt tekst op 8 grade reading level. Hierdoor is onze website begrijpelijk voor alle gebruikers en op deze manier word niemand uitgesloten die moeilijke begrippen of woorden niet begrijpt.
 
 * Make sure that button, a, and label element content is unique and descriptive:
 
