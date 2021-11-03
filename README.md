@@ -29,23 +29,23 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 ## 📦 Afbakening
 
-MijnHvA Companion Welkomspagina
+#### MijnHvA Companion Welkomspagina
 
 De welkomspagina heeft als doel informatie op een overzichtelijke en duidelijke manier te laten zien. Hierbij wordt gebruik gemaakt van verschillende doelgroepen die zijn opgedeeld in een primaire en secundaire doelgroep. namelijk: studenten, docenten en ondersteuners.
 
 https://mijnhva.student.fdnd.nl
 
-### Lijst met URLs die in de beoordeling meegenomen zijn
+#### Lijst met URLs die in de beoordeling meegenomen zijn
 
 https://mijnhva.student.fdnd.nl
  
-### Datum beoordeling
+#### Datum beoordeling
 
 Eerste beoordeling: 01-11-2021
 
 Tweede beoordeling: 04-11-2021
 
-### Taal(en) van de website
+#### Taal(en) van de website
 
 Nederlands
 
