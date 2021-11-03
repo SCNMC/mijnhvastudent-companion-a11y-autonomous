@@ -16,82 +16,155 @@ Webtoegankelijkheid-test uitgevoerd door: Shauri, Jean en Boudewijn
 - [Bijlagen](#bijlagen)
 - [Licentie](#licentie)
 
-## ✍️ Samenvatting
+## Samenvatting
 
 Dit rapport beschrijft in hoeverre de website MijnHvA Compannion overeenstemt met de Web Content Accessibility Guidelines (WCAG) van het W3C. Na de achtergrondinformatie en afbakening van de test worden beoordelaars, beoordelingsproces en testresulltaten beschreven.
 
 Conslusie van deze test luidt dat de MijnHvA Companion App bijna voldoet aan de WCAG 2.1 op niveau AAA, Behalve op de appearance, animation, controls en color contrast. Bij de appearance moet er nog goed gekeken worden naar de proximity bij de FAQ. Hier kan een een gebruiker met een minder visueel zicht de tekst hiervan minder of niet goed lezen. Niet al onze animation hebben de prefers/reduced/motion media query. Bij het tabben van de site kwamen we ook op 1 probleem uit, tijdens het tabben leest de screenreader de mobile nav voor terwijl die niet zichtbaar is. Verder was ons kleur contrast ook niet optimaal, ons witte achtergrond met de grijze tekst geeft geen goede contrast. Gedetailleerde resultaten en aanbevelingen zijn verderop in dit document beschikbaar en in de referenties vindt u bronnen voor eventuele vervolgstudie. Wij stellen feedback op deze evaluatie zeer op prijs.
 
-## 🖼️ Achtergrond bij de evaluatie
+
+
+## Achtergrond bij de evaluatie
 
 De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en handmatig uitgevoerde evaluatie tools door een ervaren beoordelaar. De beoordelingsresultaten in dit rapport zijn gebaseerd op een beoordeling welke is uitgevoerd op 25/10/2021. De website kan ondertussen aangepast zijn.
 
 ## Afbakening
 
-{Naam van de website}
+Afbakening  
 
-{en doel van de website, wanneer relevant}
+Landingspagina MijnCompanion 
 
-{Base URL van de website}
 
-{Lijst met URLs die in de beoordeling meegenomen zijn}
+Deze website heeft als doel om een aantrekkeljike landingspagina te zijn voor studenten en docenten.  
 
-{Als de website dynamisch is, screenshots van hetgeen beoordeeld is}
+Het komt met instructies, praktische tips, informatie, veelgestelde vragen en een button om te aanmelden. 
 
-{Indicatie van pagina’s die handmatig beoordeeld zijn ten opzichte van semi-geautomatiseerde tools}
 
-{URLs die niet beoordeeld zijn}
+mijnhva.student.fdnd.nl 
 
-{Exacte datum, of reeks van data waarop beoordeling heeft plaatsgevonden}
 
-{Natuurlijke taal/talen van de website}
+lijst met url's dat in de beoordeling meegenomen zijn:  
+
+https://www.a11yproject.com/checklist/ 
+
+ 
+
+Screenshots van delen die beoordeeld zijn:  
+
+  
+ 
+
+Datum 
+
+onderwerp 
+
+locatie 
+
+28-09-2021 
+
+debriefing 
+
+Microsoft Teams 
+
+29-09-2021 
+
+Debriefing feedback 
+
+Microsoft Teams 
+
+04-10-2021  
+
+Presentatie over onze ontwerp  
+
+HvA LWB verdieping 12  
+
+14-10-2021 
+
+Presentatie over de website 
+
+Hva LWB vleugelb 119 
+
+26-10-2021 
+
+Debriefing sprint 3 + Feedback 
+
+Microsoft Teams 
+
+01-11-2021 
+
+Vergadering over Accesbility check 
+
+Hva LWB Verdieping 12 
+
+Natuurlijke talen van website : 
+
+Css  
+
+Html  
+
+Javascript  
+
+ ![image](https://user-images.githubusercontent.com/76013244/140051567-621b6296-16d0-4735-9ced-87da542b4bd8.png)
+
+
+ 
 
 ## Beoordelaars
 
-Beoordelaars
+Beoordelaars 
 
-Beoordelingsteam:
+  
 
-Menno Manschot accesibilty/ ICT Services
+Beoordelingsteam:  
 
-Obe van der Klei project manager
+ 
 
-Jordy Roelofs front end developer
+Menno Manschot    accesibilty/ ICT Services  
 
-Organisatie van beoordelaars:
+Obe van der Klei  project manager  
 
-Hogeschool van Amsterdam
+Jordy Roelofs     front end developer  
 
-Contact informatie van beoordelaars:
+Organisatie van beoordelaars: 
 
-Obe van der Klei o.j.van.der.klei@hva.nl
+ Hogeschool van Amsterdam 
 
-Menno Manschot m.a.j.manschot@hva.nl
+Contact informatie van beoordelaars: 
 
-Jordy Roelofs j.j.roelofs@hva.nl
+Obe van der Klei  o.j.van.der.klei@hva.nl 
+
+Menno Manschot  m.a.j.manschot@hva.nl 
+
+Jordy Roelofs     j.j.roelofs@hva.nl 
 Jordy Roelofs is een Front-end developer. Menno is een expert in het gebied vana accessibility over websites . Het was van belang dat wij onze website bouwen om zo accessible mogelijk te zijn voor screenreaders en ook om een AAA score te krijgen vor de A11y project. Op onze website is er een horizontale slider. Deze slider kon blijven aangezien het geen effect heeft op de horizontale scrollbar.
 
-De niveau die te beoordelaars communiceren is gebasseerd op de a a11y project.
+ 
+
+De niveau die te beoordelaars communiceren is gebasseerd op  de a a11y project. 
+
+ 
 
 ## Beoordelingsproces
 
-De WCAG 2.1 Niveau die wij aan moeten houden is AAA
+De WCAG 2.1  Niveau die wij aan moeten houden  is AAA 
 
-De Evaluatie tools die wij hebben gebruikt zijn:
+De Evaluatie tools die wij hebben gebruikt zijn: 
 
-Lighthouse 100.0.0.0
+Lighthouse 100.0.0.0 
 
-NVDA version 2021.2.
+NVDA version 2021.2. 
 
-Color contrast 3.1.4
+Color contrast 3.1.4  
 
-Html validator : Ready to check - Nu Html Checker (w3.org)
+Html validator : Ready to check - Nu Html Checker (w3.org) 
 
-Wij hebben ook handmatige tools gebruikt zoals:
+Wij hebben ook handmatige tools gebruikt zoals: 
 
-The straw
+The straw  
 
-aria-describedby
+aria-describedby  
+
+ 
 
 ## ⚡ Testresultaten en aanbevelingen
 
@@ -117,6 +190,7 @@ Wij hebben bij de welkomspagina twee keer een lighthouse toegankelijkheids test 
 
 <img width="1440" alt="Schermafbeelding 2021-10-27 om 12 18 08" src="https://user-images.githubusercontent.com/45170095/139865212-2e2e945b-626e-4a04-bf68-96f0182674be.png">
 
+
 ##### Tweede lighthouse check
 
 <img width="1440" alt="Schermafbeelding 2021-10-27 om 15 14 34" src="https://user-images.githubusercontent.com/45170095/139865217-840db226-ec91-4542-8a84-f377c615b59c.png">
@@ -141,9 +215,10 @@ Use left-aligned text for left-to-right (LTR) languages, and right-aligned text 
 
 Al onze tekst op de website staat van links naar rechts. Onze website is hierdoor gemakkelijk te lezen.
 
+
 ##### Global code
 
-Tijdens het valideren van de HTML kwamen wij als groepje op een aantal HTML fouten. Zo hadden wij bijvoorbeeld geen alt-tags gebruikt op onze afbeeldingen, een onjuiste structuur bij lijsten en hadden wij onze HTML niet ingesteld op Nederlands. Gelukkig waren dit vrij kleinschalige problemen hebben wij deze opgelost.
+Tijdens het valideren van de HTML kwamen wij als groepje op een aantal HTML fouten. Zo hadden wij bijvoorbeeld geen alt-tags gebruikt op onze afbeeldingen, een onjuiste structuur bij lijsten en hadden wij onze HTML niet ingesteld op Nederlands. Gelukkig waren dit vrij kleinschalige problemen hebben wij deze opgelost. 
 
 ##### Keyboard
 
@@ -151,7 +226,7 @@ Bij het testen van de website bezoeken met alleen het gebruik van een toetsenbor
 
 ##### Keyboard oplossingen
 
-> Het tab probleem is op te lossen door het mobiele menu op display: none te zetten, maar dan is er een ander losstaand probleem m.b.t de animatie van het mobiele menu.
+> Het tab probleem is op te lossen door het mobiele menu op display: none te zetten, maar dan is er een ander losstaand probleem m.b.t de animatie van het mobiele menu. 
 
 > De focus state is op te lossen door op de desbetreffende elementen de `:focus` methode in CSS te gebruiken.
 
@@ -175,7 +250,7 @@ Bij het testen van de website hebben wij uiteraard ook gekeken naar de headings 
 
 Use list elements (ol, ul, and dl elements) for list content:
 
-Op de list categorie hebben wij een probleem gevonden in onze code. Na het runnen van een lighthouse check kwam eruit dat in onze ul een div was gebruikt. Door dit probleem kregen wij eerst een lighthouse score van 76 procent.
+Op de list categorie hebben wij een probleem gevonden in onze code. Na het runnen van een lighthouse check kwam eruit dat in onze ul een div was gebruikt. Door dit probleem kregen wij eerst een lighthouse score van 76 procent. 
 
 ##### List oplossingen
 
@@ -209,7 +284,7 @@ Opmerking
 
 ##### Media
 
-Bij het testen van de media op de website ging alles eigenlijk zoals gehoopt, alles werkte naar behoren en de media die wij hadden geplaatst kwam goed overeen met de punten die op de checklist werden genoemd als referentiepunt.
+Bij het testen van de media op de website ging alles eigenlijk zoals gehoopt, alles werkte naar behoren en de media die wij hadden geplaatst kwam goed overeen met de punten  die op de checklist werden genoemd als referentiepunt.
 
 ##### Video
 
@@ -233,15 +308,16 @@ Onze website maakt niet echt gebruik van animaties, los van wat simpele transiti
 
 ##### Color contrast
 
-Bij het testen van het kleurencontrast, was het contrast van de kleuren die wij op de website hebben gebruikt goed, alleen de tekst met een 'normale' grootte is één tint te grijs, deze moet iets meer een zwarte tint hebben, dan is het kleuren contrast van de website helemaal perfect op AAA niveau.
+Bij het testen van het kleurencontrast, was het contrast van de kleuren die wij op de website hebben gebruikt goed, alleen de tekst met een 'normale' grootte is één tint te grijs, deze moet iets meer een zwarte tint hebben, dan is het kleuren contrast van de website helemaal perfect op AAA niveau. 
+
 
 ##### Color contrast oplossingen
 
-> De tekst met een 'normale' grootte, van kleur veranderen met de volgende css property: `color: #363636`. Hiermee wordt de color contrast score van AAA behaald.
+> De tekst met een 'normale' grootte, van kleur veranderen met de volgende css property: `color: #363636`. Hiermee wordt de color contrast score van AAA behaald. 
 
 ##### Mobile and touch
 
-Bij het testen op een mobiel apparaat, was het even spannend om te kijken of de website het ook goed deed op een andere scherm oriëntatie, maar dit ging eigenlijk super goed. Voor de rest was onze website goed op mobiel volgens de checklist. Alleen werd door de checklist wel aangegeven dat op mobiel horizontaal scrollen niet gewenst is.
+Bij het testen op een mobiel apparaat, was het even spannend om te kijken of de website het ook goed deed op een andere scherm oriëntatie, maar dit ging eigenlijk super goed. Voor de rest was onze website goed op mobiel volgens de checklist. Alleen werd door de checklist wel aangegeven dat op mobiel horizontaal scrollen niet gewenst is. 
 
 ##### Mobile and touch oplossingen
 
