@@ -466,7 +466,7 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
  
 > Wij hebben dit toegepast op de instructies `section` van de welkomspagina, wij wilde uitzoeken of er een betere manier was om de instructies te presenteren, maar hier zijn wij met het tijdsbestek helaas niet aan toegekomen. Momenteel wordt er dus gebruik gemaakt van een horizontaal scrollende slider.
  
-> Ensure that button and link icons can be activated with ease:
+* Ensure that button and link icons can be activated with ease:
  
 > Wij hebben de knoppen en links expres duidelijk gesteld, zodat het niet alleen duidelijk is dat het om een interactief element gaat, maar ook zodat de interactieve elementen op mobiele apparten goed bruikbaar zijn.
  
