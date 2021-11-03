@@ -105,15 +105,15 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 ##### Content
 
-Use plain language and avoid figures of speech, idioms, and complicated metaphors
+Use plain language and avoid figures of speech, idioms, and complicated metaphors:
 
 Onze welkomspagina gebruikt tekst op 8 grade reading level. Hierdoor is onze website begrijpelijk voor alle gebruikers en op deze manier word niemand uitgesloten die moeilijke begrippen of woorden niet begrijpt.
 
-Make sure that button, a, and label element content is unique and descriptive
+Make sure that button, a, and label element content is unique and descriptive:
 
 Button, a of label elementen die we hebben gebruikt voor onzen pagina hebben allemaal een unieke beschrijving. Hierdoor leest de screen reader wat er gebeurt wanneer een specifiek element zoals een button of a word geselecteerd.
 
-Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.
+Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages:
 
 All onze tekst op de website staat van links naar rechts. Onze website is hierdoor gemakkelijk te lezen.
 
