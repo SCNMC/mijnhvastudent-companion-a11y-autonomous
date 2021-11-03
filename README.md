@@ -153,8 +153,7 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 * Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages:
 
-Al onze tekst op de website staat van links naar rechts. Onze website is hierdoor gemakkelijk te lezen.
-
+> Alle gebruikte tekst op de MijnHvA Companion welkomspagina wordt standaard al links uitgelijnd. Hierdoor zijn de teksten gemakkelijk te lezen.
 
 ##### Global code
 
