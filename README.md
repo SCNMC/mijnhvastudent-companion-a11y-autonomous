@@ -144,7 +144,7 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 <!-- #### Content -->
 
 <details>
-<summary>Content</summary
+ <summary>Content</summary
 * Use plain language and avoid figures of speech, idioms, and complicated metaphors:
 
 > Onze welkomspagina gebruikt tekst op 8 grade reading level. Hierdoor is onze website begrijpelijk voor alle gebruikers en op deze manier word niemand uitgesloten die moeilijke begrippen of woorden niet begrijpt.
@@ -160,7 +160,11 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 ##### Global code
 
-Tijdens het valideren van de HTML kwamen wij als groepje op een aantal HTML fouten. Zo hadden wij bijvoorbeeld geen alt-tags gebruikt op onze afbeeldingen, een onjuiste structuur bij lijsten en hadden wij onze HTML niet ingesteld op Nederlands. Gelukkig waren dit vrij kleinschalige problemen hebben wij deze opgelost. 
+<details>
+ <summary>Global code</summary>
+* Validate your html:
+ 
+> Wij hebben de HTML van de MijnHvA Companion welkomspagina gevalideerd door gebruik te maken van de w3 HTML validator, hier kwam bijvoorbeeld uit dat wij geen alt tags op afbeeldingen hadden gebruikt en dat onze HTML structuur van de veelgestelde vragen op de pagina niet juist was. Gelukkig waren dit vrij kleinschalige problemen en hebben wij deze direct opgelost.
 
 ##### Keyboard
 
