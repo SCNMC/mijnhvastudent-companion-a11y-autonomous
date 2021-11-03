@@ -16,7 +16,7 @@ Webtoegankelijkheid-test uitgevoerd door: Shauri, Jean en Boudewijn
 - [Bijlagen](#bijlagen)
 - [Licentie](#licentie)
 
-## Samenvatting
+## ✍️ Samenvatting
 
 <details>
 <summary>Details</summary>
