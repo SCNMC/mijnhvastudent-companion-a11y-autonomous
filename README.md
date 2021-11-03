@@ -35,6 +35,8 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 De welkomspagina heeft als doel informatie op een overzichtelijke en duidelijke manier te laten zien. Hierbij wordt gebruik gemaakt van verschillende doelgroepen die zijn opgedeeld in een primaire en secundaire doelgroep. namelijk: studenten, docenten en ondersteuners.
 
+#### Base URL van de website
+
 https://mijnhva.student.fdnd.nl
 
 #### Lijst met URLs die in de beoordeling meegenomen zijn
