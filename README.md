@@ -29,84 +29,25 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 ## 📦 Afbakening
 
-Afbakening  
+MijnHvA Companion Welkomspagina
 
-Landingspagina MijnCompanion 
+De welkomspagina heeft als doel informatie op een overzichtelijke en duidelijke manier te laten zien. Hierbij wordt gebruik gemaakt van verschillende doelgroepen die zijn opgedeeld in een primaire en secundaire doelgroep. namelijk: studenten, docenten en ondersteuners.
 
+https://mijnhva.student.fdnd.nl
 
-Deze website heeft als doel om een aantrekkeljike landingspagina te zijn voor studenten en docenten.  
+### Lijst met URLs die in de beoordeling meegenomen zijn
 
-Het komt met instructies, praktische tips, informatie, veelgestelde vragen en een button om te aanmelden. 
-
-
-mijnhva.student.fdnd.nl 
-
-
-lijst met url's dat in de beoordeling meegenomen zijn:  
-
-https://www.a11yproject.com/checklist/ 
-
+https://mijnhva.student.fdnd.nl
  
+### Datum beoordeling
 
-Screenshots van delen die beoordeeld zijn:  
+Eerste beoordeling: 01-11-2021
 
-  
- 
+Tweede beoordeling: 04-11-2021
 
-Datum 
+### Taal(en) van de website
 
-onderwerp 
-
-locatie 
-
-28-09-2021 
-
-debriefing 
-
-Microsoft Teams 
-
-29-09-2021 
-
-Debriefing feedback 
-
-Microsoft Teams 
-
-04-10-2021  
-
-Presentatie over onze ontwerp  
-
-HvA LWB verdieping 12  
-
-14-10-2021 
-
-Presentatie over de website 
-
-Hva LWB vleugelb 119 
-
-26-10-2021 
-
-Debriefing sprint 3 + Feedback 
-
-Microsoft Teams 
-
-01-11-2021 
-
-Vergadering over Accesbility check 
-
-Hva LWB Verdieping 12 
-
-Natuurlijke talen van website : 
-
-Css  
-
-Html  
-
-Javascript  
-
- ![image](https://user-images.githubusercontent.com/76013244/140051567-621b6296-16d0-4735-9ced-87da542b4bd8.png)
-
-
- 
+Nederlands
 
 ## Beoordelaars
 
