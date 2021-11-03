@@ -454,13 +454,30 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 > Voor de tekst met een 'normale' grootte kan worden gekozen voor een tekst kleur met een iets donkerdere tint, bijvoorbeeld: `color: #363636`. Dit code voorbeeld zorgt voor een kleurcontrast niveau van AAA. 
 </details>
  
-##### Mobile and touch
-
-Bij het testen op een mobiel apparaat, was het even spannend om te kijken of de website het ook goed deed op een andere scherm oriëntatie, maar dit ging eigenlijk super goed. Voor de rest was onze website goed op mobiel volgens de checklist. Alleen werd door de checklist wel aangegeven dat op mobiel horizontaal scrollen niet gewenst is. 
-
-##### Mobile and touch oplossingen
-
-> E.v.t horizontaal scrollen weghalen van de instructies `section`. Dit kan door de `display: grid` weg te halen en de width van de `article` breder te maken.
+<details>
+ <summary>Mobile and touch</summary> 
+ <br>
+ 
+* Check that the site can be rotated to any orientation:
+ 
+> Wij hebben dit getest door onze telefoons op een andere oriëntatie te laten draaien, hierbij kwamen wij erachter dat de welkomspagina het erg goed deed op verschillende scherm oriëntaties. Het was vooral interessant om te zien dat onze lay-out exact hetzelfde bleeft, ongeacht de oriëntatie.
+ 
+* Remove horizontal scrolling:
+ 
+> Wij hebben dit toegepast op de instructies `section` van de welkomspagina, wij wilde uitzoeken of er een betere manier was om de instructies te presenteren, maar hier zijn wij met het tijdsbestek helaas niet aan toegekomen. Momenteel wordt er dus gebruik gemaakt van een horizontaal scrollende slider.
+ 
+> Ensure that button and link icons can be activated with ease:
+ 
+> Wij hebben de knoppen en links expres duidelijk gesteld, zodat het niet alleen duidelijk is dat het om een interactief element gaat, maar ook zodat de interactieve elementen op mobiele apparten goed bruikbaar zijn.
+ 
+* Ensure sufficient space between interactive items in order to provide a scroll area:
+ 
+> Wij hebben specifiek gekeken naar de witruimte tussen `section` elementen op een mobiel en tablet scherm. Hierbij hebben wij verschillende `margins` en `paddings` geprobeerd om te kijken wat de goede witruimte was.
+ 
+### ✅ Mobile and touch oplossingen
+ 
+> In iedergeval het horizontaal scrollen van de instructies weghalen op een mobiel apparaat, zoals smartphones en tablets. Dit is te bereiken door het volgende aan te passen in css: `display: flex;` en `flex-direction: column`. Eventueel kan de breedte van de `<article>` nog groter gemaakt worden door de `width` te verbreden. 
+</details>
 
 {Neem links op naar de WCAG 2.1 succescriteria en technieken voor de ontoegankelijke punten}
 
