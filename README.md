@@ -357,15 +357,28 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 > Als er een video is geselcteerd met de `tab` toets kan de `spatiebalk` worden gebruikt om de video te pauzeren of te hervatten, als er geen video is geselecteerd kan de `spatiebalk` worden gebruikt om over de pagina heen te scrollen.
 </details>
  
+<details>
+ <summary>Video</summary> 
+ <br>
+ 
+* Confirm the presence of captions:
+ 
+> Bij de video(s) die wij op de welkomspagina hebben gebruikt is dit niet noodzakelijk, omdat deze video(s) voor het overgrote gedeelte bestaan uit tekst op beeld.
 
-##### Video
+* Remove seizure triggers:
+ 
+> Bij de video(s) die wij op de welkomspagina hebben gebruikt is er geen sprake van knipperende of plotselinge animaties.
+</details>
 
-Bij het testen van video was het een iets ander verhaal, volgens de checklist is het namelijk gewenst om ondertiteling toe te voegen, maar dit was in ons geval niet nodig, omdat de video die wij gebruikt hebben voor het overgrote gedeelte al bestaat uit tekst op beeld.
-
-##### Audio
-
-Zoals bij video was dit voor ons niet nodig, omdat de video die wij hebben gebruikt al voor het overgrote gedeelte bestaat uit tekst op beeld.
-
+<details>
+ <summary>Audio</summary> 
+ <br>
+ 
+* Confirm that transcripts are available:
+ 
+> Dit is bij de welkomspagina niet nodig, aangezien de gebruikte video(s) voor het grootste gedeelte uit tekst op beeld bestaan. 
+</details>
+ 
 ##### Appearance
 
 Volgens de checklist was de appereance van de website ook goed, alleen hadden wij een probleem bij het uitvoeren van de `straw` test. Hier kwamen wij er namelijk achter dat de tekst van de veelgestelde vragen te lang was voor mensen die zoom software gebruiken.
