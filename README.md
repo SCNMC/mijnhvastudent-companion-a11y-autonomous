@@ -145,6 +145,8 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 <details>
  <summary>Content</summary>
+ <br>
+ 
 * Use plain language and avoid figures of speech, idioms, and complicated metaphors:
 
 > Onze welkomspagina gebruikt tekst op 8 grade reading level. Hierdoor is onze website begrijpelijk voor alle gebruikers en op deze manier word niemand uitgesloten die moeilijke begrippen of woorden niet begrijpt.
@@ -158,25 +160,92 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 > Alle gebruikte tekst op de MijnHvA Companion welkomspagina wordt standaard al links uitgelijnd. Hierdoor zijn de teksten gemakkelijk te lezen.
  </details>
 
-##### Global code
-
 <details>
  <summary>Global code</summary>
+ <br>
+ 
 * Validate your html:
  
 > Wij hebben de HTML van de MijnHvA Companion welkomspagina gevalideerd door gebruik te maken van de w3 HTML validator, hier kwam bijvoorbeeld uit dat wij geen alt tags op afbeeldingen hadden gebruikt en dat onze HTML structuur van de veelgestelde vragen op de pagina niet juist was. Gelukkig waren dit vrij kleinschalige problemen en hebben wij deze direct opgelost.
- </details>
 
-##### Keyboard
+* Use a lang attribute on the html element:
 
-Bij het testen van de website bezoeken met alleen het gebruik van een toetsenbord ging het voor het grootste gedeelte perfect, het is namelijk voor het grootste gedeelte mogelijk om met de tab toets over de pagina te navigeren. Helaas is dit niet overal het geval, het is namelijk zo dat het mobiele menu wordt meegenomen tijdens het gebruik van de tab toets op de pagina, terwijl deze standaard niet wordt getoond. Tot slot hebben wij geen focus state kunnen zetten op interactieve elementen.
+> Wij hebben de taal van de welkomspagina gezet op Nederlands met de volgende code: `<html lang="nl">`.
+ 
+* Provide a unique title for each page or view: 
+ 
+> Wij hebben de titel van de pagina gezet op: MijnHvA | Companion met de volgende code: `<title>MijnHvA | Companion</title>`.
+ 
+* Ensure that viewport zoom is not disabled:
+ 
+> Wij hebben de instellingen voor inzoomen op de pagina standaard gelaten, zoomen is daarom mogelijk op de welkomspagina. 
+ 
+* Use landmark elements to indicate important content regions:
+ 
+> Wij hebben de welkomspagina op een semantische wijze opgebouwd, wij hebben bijvoorbeeld de navigatie van de website in een `nav` element gezet en een `main` element gebruikt.
+ 
+* Ensure a linear content flow:
+ 
+> Dit is bij ons niet ter sprake gekomen, wij hebben op de hele welkomspagina geen `tabindex` gebruikt.
+ 
+* Avoid using the autofocus attribute: 
+ 
+> Wij hebben op de hele welkomspagina geen `autofocus` gebruikt.
+ 
+* Allow extending session timeouts:
+ 
+> Dit is niet van toepassing op de welkomspagina.
 
-##### Keyboard oplossingen
+* Remove title attribute tooltips:
+ 
+> Dit is niet van toepassing op de welkomspagina.
+</details>
 
-> Het tab probleem is op te lossen door het mobiele menu op display: none te zetten, maar dan is er een ander losstaand probleem m.b.t de animatie van het mobiele menu. 
+<details>
+ <summary>Keyboard</summary>
+ <br>
+ 
+* Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input:
 
-> De focus state is op te lossen door op de desbetreffende elementen de `:focus` methode in CSS te gebruiken.
+> Helaas is het ons binnen het gegeven tijdsbestek niet gelukt om een focus state op de gebruikte interactieve elementen te zetten.
+ 
+* Check to see that keyboard focus order matches the visual layout:
+ 
+> Het is uit onze testen gebleken dat het voor het grootste gedeelte van de website mogelijk is om met de `tab` toets op een toetsenbord te navigeren, alleen het mobiele menu verstoord de tabstructuur van de pagina, waardoor de gebruiker e.v.t zijn oriëntatie op de pagina kan verliezen.  
+ 
+* Remove invisible focusable elements:
+ 
+> Dit is precies het probleem waar wij bij het gebruik van de `tab` toets tegen aanlopen, het mobiele menu moet eigenlijk worden weggehaald, zodat het niet alleen ontzichtbaar is, maar het ook niet meer mogelijk is om met de `tab` toets te selecteren.
+ 
+### ✅ Keyboard oplossingen
+ 
+> Het tab probleem is op te lossen door het mobiele menu op `display: none` te zetten in CSS, maar dit verwijdert de animatie van het mobiele menu ook gelijk.
+ 
+> De focus state toevoegen kan worden toegevoegd door op de desbetreffende elementen de `:focus` selector in CSS te gebruiken.
 
+</details>
+
+<details>
+ <summary>Images</summary> 
+ <br>
+ 
+* Make sure that all img elements have an alt attribute:
+ 
+> De afbeeldingen die door ons werden gebruikt beschikten eerst niet over de `alt` tag, maar deze tags hebben wij vervolgens meteen geplaatst en laten voorlezen door een screenreader om te kijken hoe dit zou gaan. Dit ging verassend goed, de beschrijving was goed door ons bedacht en de screenreader las de beschrijving goed voor.
+ 
+* Make sure that decorative images use null alt (empty) attribute values:
+ 
+> Dit is niet van toepassing bij de welkomspagina.
+ 
+* Provide a text alternative for complex images such as charts, graphs, and maps:
+ 
+> Dit is niet van toepassing bij de welkomspagina.
+
+* For images containing text, make sure the alt description includes the image's text:
+ 
+> Dit hebben wij toegepast door bij het Hva logo in de navigatie balk een `alt` tag mee te geven met deze invulling: `title="MijnHvA logo"`
+</details>
+ 
 ##### Images
 
 Tijdens het testen van de afbeeldingen op de website kwamen wij er achter dat onze afbeeldingen geen alt tag hadden, deze hebben wij vervolgens toegevoegd. Hierna hebben wij met een screenreader getest of onze alt-tags goed waren en dit was in onze optiek het geval. Voor de rest waren onze afbeeldingen goed volgens de checklist.
