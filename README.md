@@ -18,13 +18,15 @@ Webtoegankelijkheid-test uitgevoerd door: Shauri, Jean en Boudewijn
 
 ## Samenvatting
 
-Dit rapport beschrijft in hoeverre de website {naam van de website} overeenstemt met de _Web Content Accessibility Guidelines (WCAG)_ van het W3C. Na de achtergrondinformatie en afbakening van de test worden beoordelaars, beoordelingsproces en testresulltaten beschreven.
+Dit rapport beschrijft in hoeverre de website MijnHvA Compannion overeenstemt met de Web Content Accessibility Guidelines (WCAG) van het W3C. Na de achtergrondinformatie en afbakening van de test worden beoordelaars, beoordelingsproces en testresulltaten beschreven.
 
-Conslusie van deze test luidt dat de {Frontend Design & Development} website {niet voldoet/ voldoet/ dichtbij voldoen is aan} de WCAG 2.1, op niveau {A/ AA/ AAA}. Gedetailleerde resultaten en aanbevelingen zijn verderop in dit document beschikbaar en in de referenties vindt u bronnen voor eventuele vervolgstudie. Wij stellen feedback op deze evaluatie zeer op prijs.
+Conslusie van deze test luidt dat de MijnHvA Companion App bijna voldoet aan de WCAG 2.1 op niveau AAA, Behalve op de appearance, animation, controls en color contrast. Bij de appearance moet er nog goed gekeken worden naar de proximity bij de FAQ. Hier kan een een gebruiker met een minder visueel zicht de tekst hiervan minder of niet goed lezen. Niet al onze animation hebben de prefers/reduced/motion media query. Bij het tabben van de site kwamen we ook op 1 probleem uit, tijdens het tabben leest de screenreader de mobile nav voor terwijl die niet zichtbaar is. Verder was ons kleur contrast ook niet optimaal, ons witte achtergrond met de grijze tekst geeft geen goede contrast. Gedetailleerde resultaten en aanbevelingen zijn verderop in dit document beschikbaar en in de referenties vindt u bronnen voor eventuele vervolgstudie. Wij stellen feedback op deze evaluatie zeer op prijs.
+
+
 
 ## Achtergrond bij de evaluatie
 
-De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en handmatig uitgevoerde evaluatie tools door een ervaren beoordelaar. De beoordelingsresultaten in dit rapport zijn gebaseerd op een beoordeling welke is uitgevoerd op {datum}. De website kan ondertussen aangepast zijn.
+De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en handmatig uitgevoerde evaluatie tools door een ervaren beoordelaar. De beoordelingsresultaten in dit rapport zijn gebaseerd op een beoordeling welke is uitgevoerd op 25/10/2021. De website kan ondertussen aangepast zijn.
 
 ## Afbakening
 
@@ -68,12 +70,6 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 ## ⚡ Testresultaten en aanbevelingen
 
-<details>
-    <summary>Testresultaten en aanbevelingen</summary>
-    <br>
-    Dropdown
-</details>
-
 {Samenvatting van testresultaten, bv. deze website {voldoet/ voldoet niet/ is dichtbij aan voldoen} aan de WCAG 2.1, op niveau A, AA of AAA.}
 
 ### 💪 Sterke punten
@@ -109,6 +105,19 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 ##### Content
 
+Use plain language and avoid figures of speech, idioms, and complicated metaphors
+
+Onze welkomspagina gebruikt tekst op 8 grade reading level. Hierdoor is onze website begrijpelijk voor alle gebruikers en op deze manier word niemand uitgesloten die moeilijke begrippen of woorden niet begrijpt.
+
+Make sure that button, a, and label element content is unique and descriptive
+
+Button, a of label elementen die we hebben gebruikt voor onzen pagina hebben allemaal een unieke beschrijving. Hierdoor leest de screen reader wat er gebeurt wanneer een specifiek element zoals een button of a word geselecteerd.
+
+Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.
+
+All onze tekst op de website staat van links naar rechts. Onze website is hierdoor gemakkelijk te lezen.
+
+
 ##### Global code
 
 Tijdens het valideren van de HTML kwamen wij als groepje op een aantal HTML fouten. Zo hadden wij bijvoorbeeld geen alt-tags gebruikt op onze afbeeldingen, een onjuiste structuur bij lijsten en hadden wij onze HTML niet ingesteld op Nederlands. Gelukkig waren dit vrij kleinschalige problemen hebben wij deze opgelost. 
@@ -141,6 +150,14 @@ Bij het testen van de website hebben wij uiteraard ook gekeken naar de headings 
 
 ##### Lists
 
+Use list elements (ol, ul, and dl elements) for list content
+
+Op de list categorie hebben wij een probleem gevonden in onze code. Na het runnen van een lighthouse check kwam eruit dat in onze ul een div was gebruikt. Door dit probleem kregen wij eerst een lighthouse score van 76 procent. 
+
+##### List oplossingen
+
+> `:focus` Door alle div te veranderen naar li gaf lighthouse na het checken dit probleem niet meer aan.
+
 ##### Controls
 
 Bij het testen van de controls vanaf de checklist ging eigenlijk ook alles goed in de test, alleen hadden de interactieve elementen geen :focus state. Daarnaast heeft de website ook geen skiplink om direct door te kunnen gaan naar belangrijke informatie op de website.
@@ -152,6 +169,18 @@ Bij het testen van de controls vanaf de checklist ging eigenlijk ook alles goed 
 > Skiplink toevoegen, zodat er direct naar belangrijke informatie op de website kan worden gegaan met de tab toets.
 
 ##### Tables
+
+Use the table element to describe tabular data.
+
+Task: Use the th element for table headers (with appropriate scope attributes).
+Use the th element for table headers (with appropriate scope attributes).
+
+Task: Use the caption element to provide a title for the table.
+Use the caption element to provide a title for the table.
+
+Opmerking
+
+> `:focus` We hebbben voor onze website geen tables gebruikt dus dit is niet van toepassing.
 
 ##### Forms
 
