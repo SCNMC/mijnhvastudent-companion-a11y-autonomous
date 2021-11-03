@@ -68,6 +68,12 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 ## ⚡ Testresultaten en aanbevelingen
 
+<details>
+    <summary>Testresultaten en aanbevelingen</summary>
+    <br>
+    Dropdown
+</details>
+
 {Samenvatting van testresultaten, bv. deze website {voldoet/ voldoet niet/ is dichtbij aan voldoen} aan de WCAG 2.1, op niveau A, AA of AAA.}
 
 ### 💪 Sterke punten
