@@ -115,7 +115,7 @@ Button, a of label elementen die we hebben gebruikt voor onzen pagina hebben all
 
 Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages:
 
-All onze tekst op de website staat van links naar rechts. Onze website is hierdoor gemakkelijk te lezen.
+Al onze tekst op de website staat van links naar rechts. Onze website is hierdoor gemakkelijk te lezen.
 
 
 ##### Global code
