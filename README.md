@@ -4,6 +4,8 @@ Datum webtoegankelijkheid-test: 25/10/2021
 
 Webtoegankelijkheid-test uitgevoerd door: Shauri, Jean en Boudewijn
 
+<img width="1437" alt="Schermafbeelding 2021-11-03 om 12 42 37" src="https://user-images.githubusercontent.com/45170095/140054118-18eb1f23-2562-4a72-96fb-b624bb9af801.png">
+
 ## 📚 Inhoudsopgave
 
 - [Samenvatting](#samenvatting)
