@@ -165,6 +165,7 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 * Validate your html:
  
 > Wij hebben de HTML van de MijnHvA Companion welkomspagina gevalideerd door gebruik te maken van de w3 HTML validator, hier kwam bijvoorbeeld uit dat wij geen alt tags op afbeeldingen hadden gebruikt en dat onze HTML structuur van de veelgestelde vragen op de pagina niet juist was. Gelukkig waren dit vrij kleinschalige problemen en hebben wij deze direct opgelost.
+ </details>
 
 ##### Keyboard
 
