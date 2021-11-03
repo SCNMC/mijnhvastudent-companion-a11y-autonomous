@@ -394,7 +394,6 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 * Double-check that good proximity between content is maintained:
  
 > Wij hebben de `straw test` toegepast op de welkomspagina, wij zijn er tijdens deze test achtergekomen dat de tekst bij de veelgestelde vragen te lang is. Hierdoor is het voor iemand met een oog beperking en/of iemand die gebruik maakt van zoom software bijna onmogelijk is om de tekst bij de veelgestelde vragen goed te kunnen lezen.
-</details>
 
 * Make sure color isn't the only way information is conveyed:
  
@@ -402,32 +401,59 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
  
 * Make sure instructions are not visual or audio-only:
  
-> Om dit te bereiken hebben wij zoveel mogelijk gebruik gemaakt van semantische HTML elementen, zoals: `<main> en <section>'. Wij hebben de semantische elementen een zo duidelijk mogelijke HTML `class` gegeven die de precieze functionaliteit van dat element benoemd.
+> Om dit te bereiken hebben wij zoveel mogelijk gebruik gemaakt van semantische HTML elementen, zoals: `<main> en <section>`. Wij hebben de semantische elementen een zo duidelijk mogelijke HTML `class` gegeven die de precieze functionaliteit van dat element benoemd.
  
 * Use a simple, straightforward, and consistent layout:
  
 > Wij hebben tijdens het ontwerpen van de welkomspagina geprobeerd om een zo simpele, maar mooie website te bedenken. Tijdens het daadwerkelijke ontwikkelen hebben wij dit tot een echte website uitgebouwd. In onze optiek hebben wij een duidelijke lay-out weten neer te zetten die alleen de nodige informatie toont.
- 
- 
+  
 ### ✅ Appereance oplossingen
 
 > De specifieke tekst die niet zichtbaar is een andere kleur geven, zodat bij een omgekeerde kleuren samenstelling ook die specifieke teksten zichtbaar zijn. Gebruik hiervoor e.v.t `color: #kleurcode` in CSS om te de tekst een andere kleur te geven. E.v.t kan er ook gekeken worden naar deze link: https://css-tricks.com/reverse-text-color-mix-blend-mode/.
  
 > Tekst bij de veelgestelde vragen inkorten door e.v.t `word-wrap` in CSS te gebruiken en/of `width: {breedte}` in CSS te gebruiken op het parent element van de tekst. Hierdoor zal de tekst in breedte kleiner worden. Hierdoor is het makkelijker zichtbaar/leesbaar voor mensen met een oogaandoening en/of mensen die zoom software gebruiken.
+</details>
  
-##### Animation
+<details>
+ <summary>Animation</summary> 
+ <br>
+ 
+ Onze website maakt niet echt gebruik van animaties, los van wat simpele transitions, maar deze zijn afgestemd aan de hand van de checklist.
+</details> 
 
-Onze website maakt niet echt gebruik van animaties, los van wat simpele transitions, maar deze zijn afgestemd aan de hand van de checklist.
+<details>
+ <summary>Color contrast</summary>
+ <br>
+ 
+* Check the contrast for all normal-sized text:
+ 
+> Bij de tekst met een 'normale' grootte op de website is het kleurcontrast nét niet genoeg, dit hebben wij getest met de `color contrast checker` van: https://www.tpgi.com/color-contrast-checker/.
+ 
+* Check the contrast for all large-sized text:
+ 
+> Bij de grootte teskten op onze website was er wel sprake van een goede kleurcontrast voor niveau AAA, ook hierbij hebben wij gebruik gemaakt van de `color contrast checker` van: https://www.tpgi.com/color-contrast-checker/.
+ 
+* Check the contrast for all icons:
+ 
+> Onze gebruikte icoontjes hebben ook een kleurcontrast die goed is voor niveau AAA.
+ 
+* Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.):
+ 
+> Dit is bij onze welkomspagina niet van toepassing.
+ 
+* Check text that overlaps images or video:
+ 
+> Dit is bij onze welkomspagina niet van toepassing.
 
-##### Color contrast
+* Check custom ::selection colors:
+ 
+> Wij hebben zelf `::selection` kleuren ingesteld, hierbij hebben wij goed gelet op het kleurcontrast. De `::selection` kleuren hebben dan ook een kleurcontrast niveau van AAA.
+ 
+### ✅ Color contrast oplossingen
 
-Bij het testen van het kleurencontrast, was het contrast van de kleuren die wij op de website hebben gebruikt goed, alleen de tekst met een 'normale' grootte is één tint te grijs, deze moet iets meer een zwarte tint hebben, dan is het kleuren contrast van de website helemaal perfect op AAA niveau. 
-
-
-##### Color contrast oplossingen
-
-> De tekst met een 'normale' grootte, van kleur veranderen met de volgende css property: `color: #363636`. Hiermee wordt de color contrast score van AAA behaald. 
-
+> Voor de tekst met een 'normale' grootte kan worden gekozen voor een tekst kleur met een iets donkerdere tint, bijvoorbeeld: `color: #363636`. Dit code voorbeeld zorgt voor een kleurcontrast niveau van AAA. 
+</details>
+ 
 ##### Mobile and touch
 
 Bij het testen op een mobiel apparaat, was het even spannend om te kijken of de website het ook goed deed op een andere scherm oriëntatie, maar dit ging eigenlijk super goed. Voor de rest was onze website goed op mobiel volgens de checklist. Alleen werd door de checklist wel aangegeven dat op mobiel horizontaal scrollen niet gewenst is. 
