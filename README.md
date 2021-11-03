@@ -41,9 +41,9 @@ https://mijnhva.student.fdnd.nl
  
 #### Datum beoordeling
 
-Eerste beoordeling: 01-11-2021
+* Eerste beoordeling: 01-11-2021
 
-Tweede beoordeling: 04-11-2021
+* Tweede beoordeling: 04-11-2021
 
 #### Taal(en) van de website
 
