@@ -81,9 +81,6 @@ Standaardnederlands
 
 Het WCAG 2.1 Niveau `AAA` wordt gezien als uitgangspunt voor het toegankelijkheids niveau van de website.
 
-
-De Evaluatie tools die wij hebben gebruikt zijn: 
-
 #### Gebruikte beoordeling en evaluatie tools
 
 * Lighthouse `versie: 100.0.0.0`
@@ -94,13 +91,12 @@ De Evaluatie tools die wij hebben gebruikt zijn:
 
 * HTML Validator (w3) `versie 1.3`
 
-Wij hebben ook handmatige tools gebruikt zoals: 
+#### Handmatige tests en tools
 
-The straw  
+The straw test
 
-aria-describedby  
+`Test om te kijken of een mens met beperkt zicht de tekst op een website goed kan lezen.`
 
- 
 
 ## ⚡ Testresultaten en aanbevelingen
 
