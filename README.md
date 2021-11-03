@@ -75,15 +75,12 @@ Product Owner
 
 Standaardnederlands
 
-
- 
-
-
- 
-
 ## Beoordelingsproces
 
-De WCAG 2.1  Niveau die wij aan moeten houden  is AAA 
+#### WCAG 2.1 Niveau
+
+Het WCAG 2.1 Niveau `AAA` wordt gezien als uitgangspunt voor het toegankelijkheids niveau van de website.
+
 
 De Evaluatie tools die wij hebben gebruikt zijn: 
 
