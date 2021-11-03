@@ -479,14 +479,6 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 > In iedergeval het horizontaal scrollen van de instructies weghalen op een mobiel apparaat, zoals smartphones en tablets. Dit is te bereiken door het volgende aan te passen in css: `display: flex;` en `flex-direction: column`. Eventueel kan de breedte van de `<article>` nog groter gemaakt worden door de `width` te verbreden. 
 </details>
 
-{Neem links op naar de WCAG 2.1 succescriteria en technieken voor de ontoegankelijke punten}
-
-{Voeg per check specifieke rapportage(s), of links naar rapportage(s) toe in de Wiki, bv. screenshots van tests}
-
-{Schrijf per check aanbevelingen voor het verbeteren van ontoegankelijke punten}
-
-{Beschrijf of verwijs per check naar een programma voor het monitoren van webstite toegankelijkheid, her-beoordeling aan de hand van beoordelingsinstrumenten etc.}
-
 ### Resultaten Usability test
 
 Tot onze grote spijt was het bezoek aan het usability lab voor ons geen toegevoegde waarde. Dit komt doordat het usability lab draait op verouderde browsers. Onze website is met bepaalde 'nieuwe' css properties gemaakt, zoals `grid`, hierdoor was het niet mogelijk om onze website in het usability lab te testen, omdat onze website door de gebruikte browser dan volledig uitelkaar werd getrokken.
@@ -499,17 +491,10 @@ Referenties welke gebruikt zijn bij de webtoegankelijkheid-test. Deze referentie
 - [De complete Web Content Accessibility Guidelines 2.1 (WCAG)](https://www.w3.org/TR/WCAG21/)
 - [Technieken voor WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/)
 - [Bronnen voor beoordeling van webtoegankelijkheidsevaluatie ](http://www.w3.org/WAI/eval/)
-- [Tools lijst voor semi-geautomatiseerde beoordeling van webtoegankelijkheid](https://www.w3.org/WAI/ER/tools/)
 - [Informatie over het gebruik van gecombineerde expertise voor het evalueren van webtoegankelijkheid](https://www.w3.org/WAI/eval/reviewteams)
 - [A11Y Project Checklist](https://www.a11yproject.com/checklist/)
-
-{Vul aan waar nodig, haal weg wat niet relevant is}
-
-## Bijlagen
-
-{Geef een opsomming van de bijlagen, zoals links naar rapportages, screenshots en uitleg in de Wiki}
-
-[Einde van het template]
+- [Color Contrast Checker](https://www.tpgi.com/color-contrast-checker/)
+- [Screenreader Chrome](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn)
 
 ## Licentie
 
