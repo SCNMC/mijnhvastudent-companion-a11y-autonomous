@@ -84,9 +84,11 @@ Het WCAG 2.1 Niveau `AAA` wordt gezien als uitgangspunt voor het toegankelijkhei
 
 De Evaluatie tools die wij hebben gebruikt zijn: 
 
-Lighthouse 100.0.0.0 
+#### Gebruikte beoordeling en evaluatie tools
 
-NVDA version 2021.2. 
+* Lighthouse `versie: 100.0.0.0`
+
+* NVDA `versie 2021.2`
 
 Color contrast 3.1.4  
 
