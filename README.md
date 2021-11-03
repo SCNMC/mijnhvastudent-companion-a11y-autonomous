@@ -55,9 +55,21 @@ Nederlands
 
 ## Beoordelaars
 
-Beoordelaars 
+#### Naam van de beoordelaar(s)
 
-  
+Obe van der Klei
+
+#### Organisatie van de beoordelaar(s)
+
+Ontwikkelteam MijnHvA
+
+#### Expertisegebied van de beoordelaar(s)
+
+Product Owner
+
+#### Niveau van natuurlijke talen waarin de beoordelaar(s) communiceert/communiceren
+
+Standaardnederlands
 
 Beoordelingsteam:  
 
