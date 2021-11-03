@@ -108,12 +108,12 @@ Onze website is dichtbij aan voldoen van het niveau `AAA` van de WCAG 2.1 classi
 
    Wij hebben de welkomspagina uitvoerig getest met screenreaders. Dit hebben wij gedaan door het apple voiceover programma te gebruiken. Dit programma hebben wij tijdens het testen aangezet en vervolgens onze ogen dicht gedaan. Het was ontzettend raar om zo over een pagina heen te gaan, maar het voiceover programma deed het verassend goed op onze website, hij haperde nergens en liep nergens vast.
 
-* #### 🎨 Kleurencontrast
+* #### 🎨 Kleurcontrast
 
    Wij hebben bij de welkomspagina geprobeerd om een zo goed mogelijk kleurencontrast te creëren. Zo als in onderstaande foto te zien is is dit goed gelukt. Wij hebben met kleurconstrast de hoogst haalbare score behaald.
 
     <details>
-    `<summary>Kleurcontrast test</summary>`
+    <summary>Kleurcontrast test</summary>
    <img width="482" alt="Schermafbeelding 2021-11-02 om 14 58 28" src="https://user-images.githubusercontent.com/45170095/139861706-5f5b00a5-3320-4675-9987-fef8c9ad621c.png">
    </details>
 
@@ -125,12 +125,11 @@ Wij hebben bij de welkomspagina twee keer een lighthouse toegankelijkheids test 
 
 <img width="1440" alt="Schermafbeelding 2021-10-27 om 12 18 08" src="https://user-images.githubusercontent.com/45170095/139865212-2e2e945b-626e-4a04-bf68-96f0182674be.png">
 
-
 ##### Tweede lighthouse check
 
 <img width="1440" alt="Schermafbeelding 2021-10-27 om 15 14 34" src="https://user-images.githubusercontent.com/45170095/139865217-840db226-ec91-4542-8a84-f377c615b59c.png">
 
-### Ontoegankelijke punten
+### 🚧 Ontoegankelijke punten
 
 De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, deze zijn als volgt: Het is niet mogelijk om op een goede manier over de pagina heen te navigeren met het gebruik van tab. Daarnaast is de lengte van de tekst soms te lang waardoor mensen met een verminderd zicht de teskt niet goed kunnen lezen.
 
