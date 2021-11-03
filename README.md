@@ -53,7 +53,7 @@ https://mijnhva.student.fdnd.nl
 
 Nederlands
 
-## Beoordelaars
+## 📋 Beoordelaars
 
 #### Naam van de beoordelaar(s)
 
