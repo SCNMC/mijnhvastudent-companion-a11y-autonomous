@@ -141,7 +141,7 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 ## 🙎 Checklist
 
-##### Content
+#### Content
 
 Use plain language and avoid figures of speech, idioms, and complicated metaphors:
 
