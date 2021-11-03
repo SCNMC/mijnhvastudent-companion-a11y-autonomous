@@ -84,7 +84,7 @@ Het WCAG 2.1 Niveau `AAA` wordt gezien als uitgangspunt voor het toegankelijkhei
 
 De Evaluatie tools die wij hebben gebruikt zijn: 
 
-#### Gebruikte beoordeling en evaluatie tools
+#### 💻 Gebruikte beoordeling en evaluatie tools
 
 * Lighthouse `versie: 100.0.0.0`
 
