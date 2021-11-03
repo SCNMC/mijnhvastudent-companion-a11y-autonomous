@@ -95,7 +95,7 @@ Het WCAG 2.1 Niveau `AAA` wordt gezien als uitgangspunt voor het toegankelijkhei
 
 The straw test
 
-`Test om te kijken of een mens met beperkt zicht de tekst op een website goed kan lezen.`
+> Test om te kijken of een mens met beperkt zicht de tekst op een website goed kan lezen.
 
 
 ## ⚡ Testresultaten en aanbevelingen
