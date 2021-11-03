@@ -102,7 +102,7 @@ The straw test
 
 Onze website is dichtbij aan voldoen van het niveau `AAA` van de WCAG 2.1 classificering. Dit komt door een aantal ontoegankelijke punten die opgelost moeten worden, zoals bijvoorbeeld het navigeren over de pagina met een toetsenbord.
 
-### 💪 Sterke punten
+## 💪 Sterke punten
 
 * #### 👓 Screenreaders
 
