@@ -150,7 +150,7 @@ Bij het testen van de website hebben wij uiteraard ook gekeken naar de headings 
 
 ##### Lists
 
-Use list elements (ol, ul, and dl elements) for list content
+Use list elements (ol, ul, and dl elements) for list content:
 
 Op de list categorie hebben wij een probleem gevonden in onze code. Na het runnen van een lighthouse check kwam eruit dat in onze ul een div was gebruikt. Door dit probleem kregen wij eerst een lighthouse score van 76 procent. 
 
