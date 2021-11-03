@@ -106,17 +106,12 @@ Onze website is dichtbij aan voldoen van het niveau `AAA` van de WCAG 2.1 classi
 
 * #### 👓 Screenreaders
 
-<details>
    Wij hebben de welkomspagina uitvoerig getest met screenreaders. Dit hebben wij gedaan door het apple voiceover programma te gebruiken. Dit programma hebben wij tijdens het testen aangezet en vervolgens onze ogen dicht gedaan. Het was ontzettend raar om zo over een pagina heen te gaan, maar het voiceover programma deed het verassend goed op onze website, hij haperde nergens en liep nergens vast.
-   </details>
 
 * #### 🎨 Kleurcontrast
 
-<details>
    Wij hebben bij de welkomspagina geprobeerd om een zo goed mogelijk kleurencontrast te creëren. Zo als in onderstaande foto te zien is is dit goed gelukt. Wij hebben met kleurconstrast de hoogst haalbare score behaald.
-</details>
 
-    <summary>Kleurcontrast test</summary>
    <img width="482" alt="Schermafbeelding 2021-11-02 om 14 58 28" src="https://user-images.githubusercontent.com/45170095/139861706-5f5b00a5-3320-4675-9987-fef8c9ad621c.png">
 
 * #### 🏠 Lighthouse
