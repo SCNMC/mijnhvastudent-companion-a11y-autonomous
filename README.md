@@ -379,14 +379,42 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 > Dit is bij de welkomspagina niet nodig, aangezien de gebruikte video(s) voor het grootste gedeelte uit tekst op beeld bestaan. 
 </details>
  
-##### Appearance
+<details>
+ <summary>Appearance</summary> 
+ <br>
+ 
+* Check your content in specialized browsing modes:
 
-Volgens de checklist was de appereance van de website ook goed, alleen hadden wij een probleem bij het uitvoeren van de `straw` test. Hier kwamen wij er namelijk achter dat de tekst van de veelgestelde vragen te lang was voor mensen die zoom software gebruiken.
+> Wij hebben dit getest door de kleuren van de website omgedraaid en hoog contrast in de browser aangezet, uiteraard werden de kleuren van de welkomspagina wel veranderd, maar de content was niet overal meer zichtbaar. De tekst bij de instructies en footer was bij omgedraaide kleuren niet meer zichtbaar.
 
-##### Appearance oplossingen
+* Increase text size to 200%:
+ 
+> Wij hebben onze browser gezoomd tot 200%. Hierbij bleef alle tekst goed leesbaar en bleven de aspect ratios en afbeeldingen hetzelfde.
+ 
+* Double-check that good proximity between content is maintained:
+ 
+> Wij hebben de `straw test` toegepast op de welkomspagina, wij zijn er tijdens deze test achtergekomen dat de tekst bij de veelgestelde vragen te lang is. Hierdoor is het voor iemand met een oog beperking en/of iemand die gebruik maakt van zoom software bijna onmogelijk is om de tekst bij de veelgestelde vragen goed te kunnen lezen.
+</details>
 
-> Veelgestelde vragen korter maken d.m.v `word-wrap` in css. Hierdoor kunnen mensen met zoom software de tekst ook goed kunnen lezen en de vragen op een goede manier kunnen bekijken.
+* Make sure color isn't the only way information is conveyed:
+ 
+> Om dit te testen hebben wij een `grayscale: 100%` CSS property toegevoegd aan de welkomspagina, toen werd duidelijk dat de links nog goed zichtbaar en duidelijk zijn als alles is gehuld in grijstinten.
+ 
+* Make sure instructions are not visual or audio-only:
+ 
+> Om dit te bereiken hebben wij zoveel mogelijk gebruik gemaakt van semantische HTML elementen, zoals: `<main> en <section>'. Wij hebben de semantische elementen een zo duidelijk mogelijke HTML `class` gegeven die de precieze functionaliteit van dat element benoemd.
+ 
+* Use a simple, straightforward, and consistent layout:
+ 
+> Wij hebben tijdens het ontwerpen van de welkomspagina geprobeerd om een zo simpele, maar mooie website te bedenken. Tijdens het daadwerkelijke ontwikkelen hebben wij dit tot een echte website uitgebouwd. In onze optiek hebben wij een duidelijke lay-out weten neer te zetten die alleen de nodige informatie toont.
+ 
+ 
+### ✅ Appereance oplossingen
 
+> De specifieke tekst die niet zichtbaar is een andere kleur geven, zodat bij een omgekeerde kleuren samenstelling ook die specifieke teksten zichtbaar zijn. Gebruik hiervoor e.v.t `color: #kleurcode` in CSS om te de tekst een andere kleur te geven. E.v.t kan er ook gekeken worden naar deze link: https://css-tricks.com/reverse-text-color-mix-blend-mode/.
+ 
+> Tekst bij de veelgestelde vragen inkorten door e.v.t `word-wrap` in CSS te gebruiken en/of `width: {breedte}` in CSS te gebruiken op het parent element van de tekst. Hierdoor zal de tekst in breedte kleiner worden. Hierdoor is het makkelijker zichtbaar/leesbaar voor mensen met een oogaandoening en/of mensen die zoom software gebruiken.
+ 
 ##### Animation
 
 Onze website maakt niet echt gebruik van animaties, los van wat simpele transitions, maar deze zijn afgestemd aan de hand van de checklist.
