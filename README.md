@@ -243,64 +243,120 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 * For images containing text, make sure the alt description includes the image's text:
  
-> Dit hebben wij toegepast door bij het Hva logo in de navigatie balk een `alt` tag mee te geven met deze invulling: `title="MijnHvA logo"`
+> Dit hebben wij toegepast door bij het Hva logo in de navigatie balk een `title` tag mee te geven met deze invulling: `title="MijnHvA logo"`. Wij gebruiken hiervoor een `title` tag, omdat het gebruikte logo een bestaat uit svg code.
+  
+### ✅ Images oplossingen
+
+> Het alt tag probleem is op te lossen door op de gebruikte informatieve afbeeldingen een `alt` tag te plaastsen. (Dit is al uitgevoerd).
+
 </details>
  
-##### Images
+<details>
+ <summary>Headings</summary>
+ <br>
+ 
+* Use heading elements to introduce content:
+ 
+> Wij hebben de headings op de welkomspagina alleen gebruikt om een duidelijke structuur op te bouwen, niet voor puur het visuele design.
+ 
+* Use only one h1 element per page or view:
+ 
+> Wij hebben op de gehele pagina maar één keer het `h1` element toegepast. Dit is toevallig gedaan in de banner van de website, dit leek ons de beste plek om een `h1` element te zetten, aangezien dit de belangrijkste titel is van de website. 
+ 
+* Heading elements should be written in a logical sequence:
+ 
+> Tijdens het bouwen van de welkomspagina is dit perongeluk een aantal keer vergeten, zo ging de volgorde bijvoorbeeld van `h2` naar `h4`. Dit is erg lastig om te begrijpen voor een screenreader, daarom hebben wij dit ook direct ter plekken aangepast naar de goede volgorde.
+ 
+* Don't skip heading levels:
 
-Tijdens het testen van de afbeeldingen op de website kwamen wij er achter dat onze afbeeldingen geen alt tag hadden, deze hebben wij vervolgens toegevoegd. Hierna hebben wij met een screenreader getest of onze alt-tags goed waren en dit was in onze optiek het geval. Voor de rest waren onze afbeeldingen goed volgens de checklist.
+> Dit komt eigenlijk op hetzelfde neer als het vorige punt, wij hadden perongeluk heading levels overgeslagen, maar dit is gelukkig direct opgelost.
+ 
+### ✅ Headings oplossingen 
 
-##### Images oplossingen
+> Beide bovenstaande problemen zijn op te lossen door een goede volgorde van de heading elementen toe te passen, zoals dit: `h1, h2 , h3, h4, h5, h6`. (Dit is al uitgevoerd)
+</details>
 
-> `Alt` tags gebruiken op de afbeeldingen. Zodat deze ook worden voorgelezen door screenreaders.
+<details>
+ <summary>Lists</summary>
+ <br>
+ 
+* Use list elements (ol, ul, and dl elements) for list content:
+ 
+> Wij hebben bij het gebruik van lijsten op de welkomspagina gebruik gemaakt van bovenstaande elementen om een lijst aan te geven, wij hadden echter wel een probleem met de lijsten. Wij hadden namelijk in het `ul` element een `div` element gezet, dit mocht schijnbaar niet en hebben wij daarom al verandert naar een `li` element.
+ 
+### ✅ Lists oplossingen
 
-##### Headings
+> Bovenstaand probleem is op te lossen door de goede structuur van de `ol, ul en dl` elementen te gebruiken in HTML. (Dit is al uitgevoerd)
+</details>
+ 
+<details>
+ <summary>Controls</summary>
+ <br>
+ 
+* Use the a element for links:
+ 
+> Wij hebben standaard bij alle links op de welkomspagina het `<a>` element gebruikt. Daarnaast hebben wij later nog het `href=""` attribuut toegvoegd, dit hadden wij perongeluk eerst niet, maar is later nog toegevoegd.
+ 
+* Ensure that links are recognizable as links:
+ 
+> Wij hebben de links op de welkomspagina meestal gestijld d.m.v een kleur. In sommige gevallen hebben wij ook wel eens een `<a>` element de stijling gegeven die het element liet lijken op een `<button>` element.
+ 
+* Ensure that controls have :focus states:
+ 
+> Onze links op de welkomspagina hebben helaas geen `:focus` stijl meegekregen, dit stond bij ons op de pagina, maar hier is geen tijd meer voor gevonden.
+ 
+* Use the button element for buttons:
+ 
+> Dit is bij onze welkomspagina niet van toepassing.
+ 
+* Provide a skip link and make sure that it is visible when focused:
+ 
+> Helaas hebben wij geen gebruik kunnen maken van een skiplink, wederom door tijdgebrek zijn wij hier niet aan toegekomen.
+ 
+* Identify links that open in a new tab or window:
+ 
+> Dit hebben wij wél gedaan, wij hebben op elk `<a>` element op de pagina het stukje code: `target="_blank"` weggehaald, dit zorgde ervoor dat de link in een nieuwe browsertab werdt geopend.
+ 
+### ✅ Controls oplossingen
 
-Bij het testen van de website hebben wij uiteraard ook gekeken naar de headings op de website. Onze gebruikte headings voldeden aan bijna alle punten van de checklist. Wij hadden namelijk perongeluk heading niveaus overgeslagen en hier ook geen logische volgorde in de heading niveaus gebruiken, wij gingen bijvoorbeeld van een h2 naar een h4 zonder een h3 te gebruiken.
+> Voeg het `href` attribuut toe aan de links, zodat deze gevonden kunnen worden bij het gebruik van de `tab` toets op de welkomspagina. (Dit is al uitgevoerd).
+ 
+> Voeg een `:focus` stijl toe in CSS op de desbetreffende links, zodat het bij het gebruik van de `tab` toets en de muis duidelijk is of een element is geselecteerd.
+ 
+> Voeg een `<a>` element toe dat standaard met de CSS `transform` property wordt verborgen, behalve als het `<a>` element wordt geselecteerd d.m.v de `tab` toets. (Zie link voor voorbeeld: https://css-tricks.com/how-to-create-a-skip-to-content-link/).
+</details>
 
-##### Headings oplossingen
+<details>
+ <summary>Tables</summary> 
+ <br>
+ 
+ Wij hebben geen tabellen gebruikt in de welkomspagina.
+</details>
 
-> Gebruik een logische volgorde in de heading levels: `h1, h2, h3`, enzovoort.
+<details>
+ <summary>Forms</summary>
+ <br>
+ 
+ Wij hebben geen formulieren gebruikt in de welkomspagina.
+</details>
 
-##### Lists
+<details>
+ <summary>Media</summary>
+ <br>
+ 
+* Make sure that media does not autoplay:
+ 
+> Wij hebben op de gebruikte video(s) op de welkomspagina expres het `autoplay` attribuut niet gebruikt, zodat de media niet opeens begint af te spelen als de pagina geladen is.
 
-Use list elements (ol, ul, and dl elements) for list content:
-
-Op de list categorie hebben wij een probleem gevonden in onze code. Na het runnen van een lighthouse check kwam eruit dat in onze ul een div was gebruikt. Door dit probleem kregen wij eerst een lighthouse score van 76 procent. 
-
-##### List oplossingen
-
-> `:focus` Door alle div te veranderen naar li gaf lighthouse na het checken dit probleem niet meer aan.
-
-##### Controls
-
-Bij het testen van de controls vanaf de checklist ging eigenlijk ook alles goed in de test, alleen hadden de interactieve elementen geen :focus state. Daarnaast heeft de website ook geen skiplink om direct door te kunnen gaan naar belangrijke informatie op de website.
-
-##### Controls oplossingen
-
-> `:focus` state toevoegen op interactieve elementen.
-
-> Skiplink toevoegen, zodat er direct naar belangrijke informatie op de website kan worden gegaan met de tab toets.
-
-##### Tables
-
-Use the table element to describe tabular data.
-
-Task: Use the th element for table headers (with appropriate scope attributes).
-Use the th element for table headers (with appropriate scope attributes).
-
-Task: Use the caption element to provide a title for the table.
-Use the caption element to provide a title for the table.
-
-Opmerking
-
-> `:focus` We hebbben voor onze website geen tables gebruikt dus dit is niet van toepassing.
-
-##### Forms
-
-##### Media
-
-Bij het testen van de media op de website ging alles eigenlijk zoals gehoopt, alles werkte naar behoren en de media die wij hadden geplaatst kwam goed overeen met de punten  die op de checklist werden genoemd als referentiepunt.
+* Ensure that media controls use appropriate markup:
+ 
+> Wij hebben de standaard video controls gebruikt van HTML en deze waren zeer duidelijk simpel in gebruik.
+ 
+* Check to see that all media can be paused:
+ 
+> Als er een video is geselcteerd met de `tab` toets kan de `spatiebalk` worden gebruikt om de video te pauzeren of te hervatten, als er geen video is geselecteerd kan de `spatiebalk` worden gebruikt om over de pagina heen te scrollen.
+</details>
+ 
 
 ##### Video
 
