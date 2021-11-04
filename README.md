@@ -141,8 +141,6 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 
 ## 🙎 Checklist
 
-<!-- #### Content -->
-
 <details>
  <summary>Content</summary>
  <br>
@@ -479,7 +477,7 @@ De welkomspagina van MijnHvA Companion heeft een aantal ontoegankelijke punten, 
 > In iedergeval het horizontaal scrollen van de instructies weghalen op een mobiel apparaat, zoals smartphones en tablets. Dit is te bereiken door het volgende aan te passen in css: `display: flex;` en `flex-direction: column`. Eventueel kan de breedte van de `<article>` nog groter gemaakt worden door de `width` te verbreden. 
 </details>
 
-### Resultaten Usability test
+## Resultaten Usability test
 
 Tot onze grote spijt was het bezoek aan het usability lab voor ons geen toegevoegde waarde. Dit komt doordat het usability lab draait op verouderde browsers. Onze website is met bepaalde 'nieuwe' css properties gemaakt, zoals `grid`, hierdoor was het niet mogelijk om onze website in het usability lab te testen, omdat onze website door de gebruikte browser dan volledig uitelkaar werd getrokken.
 
